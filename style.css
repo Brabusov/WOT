@@ -1,0 +1,57 @@
+body{
+  background-image:url(https://luxfon.com/pic/201304/1920x1080/luxfon.com-20449.jpg);
+   text-align:center;  <!--текст по центру-->
+   display : flex;
+}
+.header{
+  width:100%;
+}
+@media (max-height: 800px){
+ h3 {
+    font-size: 25;
+   color:red
+      }
+}
+}
+  img{
+    margin:0 auto;
+      }
+ 
+#top{
+  color:red;
+  background-color:#080812;
+  padding:10px;
+ border:1px solid red;
+  margin-top:50px;
+}
+
+#nav-bar {              
+       position: fixed; 
+  border:1px solid ;top: 0;   left: 0;   z-index: 9999;   width: 100%;   height: 50px;   background-color: #080812;   
+  }
+
+li {
+  display:inline-block; <!--расположен в ряд-->
+  margin-left:30px;
+}
+
+nav a{
+  text-decoration:none;  <!--отмена подчёркивания-->
+  color:#FFF6F7;
+  }
+
+#submit {
+  margin left:50px;
+}
+#email-label{
+  color:#FFFFFF;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+#video {
+  margin-top:5px;
+  margin-left:33%;
+  margin-right:33%;
+  border:3px solid;
+  padding:5px;   <!--отступ снаружи рамки-->
+}
